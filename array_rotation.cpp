@@ -48,6 +48,10 @@ int main()
 	cin>>k;
 	leftRotate(a, k, n);
 	printArray(a, n);
+	int r,s=0;
+	cin>>r;
+	for(int j=0;j<r;j++)
+		s++;
 
 	return 0;
 }
